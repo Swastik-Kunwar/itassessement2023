@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    padding: 50px;    
+    padding-left:22%;
+}
+.contact-info{
+
+    background-color: rgba(192, 73, 26, 0.8);
+    width: 35%;
+    height: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 30px;
+    
+    
+}
+.contact-form{
+    width: 40%;
+   display: flex;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 20px;
+    height: 700px;
+}
+
+form{
+    padding: 40px 40px;
+}
+
+body{
+    background-image: url("Images/Background.jpg");
+    
+}
+
+
+.input-container{
+    padding: 20px 9px;
+
+}
+
+.title{
+    color: rgb(186, 59, 211);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+ }
+ .input{
+    outline: beige;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid rgb(248, 0, 0);
+    background: none;
+ }
+
+ 
+ .topic{
+    text-align: center;
+    padding-top: 50px;
+    background-color: antiquewhite;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-style: oblique;
+
+ }
+
+ .input::placeholder{
+    text-align: center;
+ }
+
+ #message{
+    outline: beige;
+    height: 200px;
+    width: 100%;
+    border: 3px solid rgb(248, 0, 0);
+    background: none;
+ }
+
+ #message::placeholder{
+    text-align: center;
+ }
+
+.button{
+    height: 30px;
+    border-radius: 15px;
+    width: 110px;
+    background-color: rgba(28, 126, 196, 0.588);
+    transition: background-color 0.2s;
+    transition: color 0.1s;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(59, 201, 211);
+    color: white;
+}
+.button:active{
+    opacity: 0.6;
+}
+
+.information{
+    display: flex;
+    color: black;
+    margin: 15px 0;
+    align-items: center;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    font-style: italic;
+}
+
+p{
+    text-decoration: underline;
+    text-align: center;
+    color: rgba(36, 92, 155, 0.937);
+}
+

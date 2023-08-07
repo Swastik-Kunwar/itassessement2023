@@ -1,0 +1,66 @@
+.table, .inner-table, .project{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 20px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.cap {
+    background-color: rgb(33, 22, 54);
+    padding-bottom: 25px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: azure;
+}
+.about{
+    font-size: 28px;
+}
+
+pre{
+    padding-top: 20px ;
+    text-align: left;
+}
+
+.table td{
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.inner-table #Academics{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-style: oblique;
+}
+
+.inner-table #th1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.inner-table #d1{
+    height: 50px;
+    padding-left: 50px;
+
+}
+
+.project #project{
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.project .td2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: lighter;
+}

@@ -6,7 +6,6 @@
     <title>Contacts </title>
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
   </head>
   <body>
    
@@ -51,14 +50,10 @@
         </div>
         
     
-
-
-
-
       </div>
     
       <div class="contact-form">
-        <form action="index.html">
+        <form method="post" onsubmit="validate();">
           <h2 class="title">Contact Us For More Information</h2>
             <div class="input-container">
               <label for="name"></label>
@@ -66,11 +61,11 @@
             </div>
             <div class="input-container">
               <label for="E-mail"></label>
-              <input type="text" placeholder="Enter E-mail" id="e-mail" class="input">
+              <input type="email" placeholder="Enter E-mail" id="e-mail" class="input">
             </div>
             <div class="input-container">
               <label for="phone-number"></label>
-              <input type="text" placeholder="Phone-number" id="phone-number" class="input">
+              <input type="tel" placeholder="Phone-number" id="phone-number" class="input">
             </div>
             <div class="input-container">
               <label for="message"></label>
@@ -79,6 +74,7 @@
             <input type="submit" value="Submit" class="button">
         </form>
       </div>
+      <script src="contact.js"></script>
     </main>
     <footer>
       <div class="footer">

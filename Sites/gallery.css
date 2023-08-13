@@ -18,15 +18,14 @@ img{
     
 }
 .image{
-    margin: 80px auto 20px;
+    margin: 70px auto 20px;
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2px; 
 }
 
 .thumbnail {
-    display: block;
+  
     text-align: center;
 }
 

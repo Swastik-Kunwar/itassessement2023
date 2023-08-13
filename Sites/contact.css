@@ -122,8 +122,18 @@ h3{
 }
 
 p{
-    text-decoration: underline;
+    font-style: italic;
     text-align: center;
-    color: rgba(36, 92, 155, 0.937);
+    color: #DAC6B5;
 }
 
+input{
+    font-size: 16px;
+    padding: 20px 20px;
+}
+
+textarea{
+    padding: 20px 20px;
+    font-size: 16px;
+    resize: none;
+}
